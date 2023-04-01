@@ -1,0 +1,40 @@
+﻿       <note>
+       this instructions run in linuxmint 20.3 terminal
+       </note>
+    1. Git setup
+       - link to download https://git-scm.com/download/linux
+       - after installation, check version of git git –version
+       - configuration username, git config –global user.name “example_myname”
+       - configuration email, git config –global user.email “example@mail.com”
+	
+	For Ubuntu, this PPA provides the latest stable upstream Git version
+	- add apt repository ppa:git-core/ppa
+	- apt update
+	- apt install git
+	- follow back instructions configuration username / email
+	(may give a lastest stable version release)
+    2. Git init
+       - add repository in local
+    3. git status 
+       - give a status information
+    4. git log
+       - give a log history
+       - command in terminal git log oneline or git log
+    5. git add
+       - added a some file or something to vcs
+       - command in terminal git add
+    6. git commit
+       - added user information
+    7. - command in terminal git commit -m “example commit”
+    8. git diff
+       - give a specifically what particular has changed
+       - command in terminal git diff example.txtgit
+    9. git revert
+       - in order to get back commit before
+       - command in terminal git revert
+    10. git clone
+       - cloning local repository to remote repository like github
+       - command in terminal git clone https://github.com/example-repo
+    11. git push
+       - push like upload file from repo local to repo github
+       - git push -u origin master or git push
